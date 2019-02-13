@@ -4465,6 +4465,11 @@ v8-compile-cache@^2.0.2:
   resolved "http://registry.npm.alibaba-inc.com/v8-compile-cache/download/v8-compile-cache-2.0.2.tgz#a428b28bb26790734c4fc8bc9fa106fccebf6a6c"
   integrity sha1-pCiyi7JnkHNMT8i8n6EG/M6/amw=
 
+vanilla-tilt@^1.6.1:
+  version "1.6.1"
+  resolved "http://registry.npm.alibaba-inc.com/vanilla-tilt/download/vanilla-tilt-1.6.1.tgz#7472eda102f565c077b76e6240f36941436f2e24"
+  integrity sha1-dHLtoQL1ZcB3t25iQPNpQUNvLiQ=
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.alibaba-inc.com/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"

@@ -1,17 +1,59 @@
 import getReact from './source';
-const { React, ReactDOM } = getReact();
+const { React, ReactDOM, Scheduler } = getReact();
 
-console.log(React.version);
+const {
+  unstable_ConcurrentMode: ConcurrentMode,
+  Component,
+  Suspense,
+} = React;
+const {
+  unstable_scheduleCallback: scheduleCallback,
+} = Scheduler;
+const {
+  unstable_createRoot: createRoot
+} = ReactDOM;
 
-class HelloMessage extends React.Component {
-  constructor(props) {
-    super();
-    console.log(props, this.props);
+const Tilt = React.lazy(() => import('./tilt'))
+
+class App extends Component {
+  state = {showTilt: false, showTiltChecked: false}
+  toggleTilt = () => {
+    this.setState(({ showTiltChecked }) => ({ showTiltChecked: !showTiltChecked }));
+
+    scheduleCallback(() => {
+      // this.setState({ update: 'lowPriority' });
+      this.setState(({ showTilt }) => ({ showTilt: !showTilt }))
+    });
   }
   render() {
-    console.log(this.props);
-    return <div>Hello {this.props.name}</div>;
+    const {showTilt, showTiltChecked} = this.state
+    return (
+      <div>
+        <label>
+          show tilt
+          <input
+            type="checkbox"
+            checked={showTiltChecked}
+            onChange={this.toggleTilt}
+          />
+        </label>
+
+        <div style={{height: 150, width: 200}} className="totally-centered">
+          {showTilt ? (
+            <Suspense maxDuration={1000} fallback="loading...">
+              <Tilt>
+                <div className="totally-centered">vanilla-tilt.js</div>
+              </Tilt>
+            </Suspense>
+          ) : null}
+        </div>
+      </div>
+    )
   }
 }
 
-ReactDOM.render(<HelloMessage name="John" />, document.getElementById('main'))
+createRoot(document.getElementById('root')).render(
+  <ConcurrentMode>
+    <App />
+  </ConcurrentMode>,
+)

@@ -1653,6 +1653,85 @@ cyclist@~0.2.2:
   resolved "http://registry.npm.alibaba-inc.com/cyclist/download/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
   integrity sha1-GzN5LhHpFKL9bW7WRHRkRE5fpkA=
 
+d3-array@^1.2.0:
+  version "1.2.4"
+  resolved "http://registry.npm.alibaba-inc.com/d3-array/download/d3-array-1.2.4.tgz#635ce4d5eea759f6f605863dbcfc30edc737f71f"
+  integrity sha1-Y1zk1e6nWfb2BYY9vPww7cc39x8=
+
+d3-collection@1:
+  version "1.0.7"
+  resolved "http://registry.npm.alibaba-inc.com/d3-collection/download/d3-collection-1.0.7.tgz#349bd2aa9977db071091c13144d5e4f16b5b310e"
+  integrity sha1-NJvSqpl32wcQkcExRNXk8WtbMQ4=
+
+d3-color@1:
+  version "1.2.3"
+  resolved "http://registry.npm.alibaba-inc.com/d3-color/download/d3-color-1.2.3.tgz#6c67bb2af6df3cc8d79efcc4d3a3e83e28c8048f"
+  integrity sha1-bGe7KvbfPMjXnvzE06PoPijIBI8=
+
+d3-ease@^1.0.0:
+  version "1.0.5"
+  resolved "http://registry.npm.alibaba-inc.com/d3-ease/download/d3-ease-1.0.5.tgz#8ce59276d81241b1b72042d6af2d40e76d936ffb"
+  integrity sha1-jOWSdtgSQbG3IELWry1A522Tb/s=
+
+d3-format@1:
+  version "1.3.2"
+  resolved "http://registry.npm.alibaba-inc.com/d3-format/download/d3-format-1.3.2.tgz#6a96b5e31bcb98122a30863f7d92365c00603562"
+  integrity sha1-apa14xvLmBIqMIY/fZI2XABgNWI=
+
+d3-interpolate@1, d3-interpolate@^1.1.1:
+  version "1.3.2"
+  resolved "http://registry.npm.alibaba-inc.com/d3-interpolate/download/d3-interpolate-1.3.2.tgz#417d3ebdeb4bc4efcc8fd4361c55e4040211fd68"
+  integrity sha1-QX0+vetLxO/Mj9Q2HFXkBAIR/Wg=
+  dependencies:
+    d3-color "1"
+
+d3-path@1:
+  version "1.0.7"
+  resolved "http://registry.npm.alibaba-inc.com/d3-path/download/d3-path-1.0.7.tgz#8de7cd693a75ac0b5480d3abaccd94793e58aae8"
+  integrity sha1-jefNaTp1rAtUgNOrrM2UeT5Yqug=
+
+d3-scale@^1.0.0:
+  version "1.0.7"
+  resolved "http://registry.npm.alibaba-inc.com/d3-scale/download/d3-scale-1.0.7.tgz#fa90324b3ea8a776422bd0472afab0b252a0945d"
+  integrity sha1-+pAySz6op3ZCK9BHKvqwslKglF0=
+  dependencies:
+    d3-array "^1.2.0"
+    d3-collection "1"
+    d3-color "1"
+    d3-format "1"
+    d3-interpolate "1"
+    d3-time "1"
+    d3-time-format "2"
+
+d3-shape@^1.0.0, d3-shape@^1.2.0:
+  version "1.3.4"
+  resolved "http://registry.npm.alibaba-inc.com/d3-shape/download/d3-shape-1.3.4.tgz#358e76014645321eecc7c364e188f8ae3d2a07d4"
+  integrity sha1-NY52AUZFMh7sx8Nk4Yj4rj0qB9Q=
+  dependencies:
+    d3-path "1"
+
+d3-time-format@2:
+  version "2.1.3"
+  resolved "http://registry.npm.alibaba-inc.com/d3-time-format/download/d3-time-format-2.1.3.tgz#ae06f8e0126a9d60d6364eac5b1533ae1bac826b"
+  integrity sha1-rgb44BJqnWDWNk6sWxUzrhusgms=
+  dependencies:
+    d3-time "1"
+
+d3-time@1:
+  version "1.0.11"
+  resolved "http://registry.npm.alibaba-inc.com/d3-time/download/d3-time-1.0.11.tgz#1d831a3e25cd189eb256c17770a666368762bbce"
+  integrity sha1-HYMaPiXNGJ6yVsF3cKZmNodiu84=
+
+d3-timer@^1.0.0:
+  version "1.0.9"
+  resolved "http://registry.npm.alibaba-inc.com/d3-timer/download/d3-timer-1.0.9.tgz#f7bb8c0d597d792ff7131e1c24a36dd471a471ba"
+  integrity sha1-97uMDVl9eS/3Ex4cJKNt1HGkcbo=
+
+d3-voronoi@^1.1.2:
+  version "1.1.4"
+  resolved "http://registry.npm.alibaba-inc.com/d3-voronoi/download/d3-voronoi-1.1.4.tgz#dd3c78d7653d2bb359284ae478645d95944c8297"
+  integrity sha1-3Tx412U9K7NZKErkeGRdlZRMgpc=
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.alibaba-inc.com/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -2824,7 +2903,7 @@ lodash.debounce@^4.0.8:
   resolved "http://registry.npm.alibaba-inc.com/lodash.debounce/download/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
-lodash@^4.17.4, lodash@^4.17.5:
+lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.11"
   resolved "http://registry.npm.alibaba-inc.com/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
@@ -2834,7 +2913,7 @@ loglevel@^1.4.1:
   resolved "http://registry.npm.alibaba-inc.com/loglevel/download/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
   integrity sha1-4PyVEztu8nbNyIh82vJKpvFW+Po=
 
-loose-envify@^1.0.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0:
   version "1.4.0"
   resolved "http://registry.npm.alibaba-inc.com/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -3224,7 +3303,7 @@ number-is-nan@^1.0.0:
   resolved "http://registry.npm.alibaba-inc.com/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "http://registry.npm.alibaba-inc.com/object-assign/download/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -3531,6 +3610,14 @@ promise-inflight@^1.0.1:
   resolved "http://registry.npm.alibaba-inc.com/promise-inflight/download/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+prop-types@^15.5.8, prop-types@^15.6.2:
+  version "15.7.1"
+  resolved "http://registry.npm.alibaba-inc.com/prop-types/download/prop-types-15.7.1.tgz#2fa61e0a699d428b40320127733ee2931f05d9d1"
+  integrity sha1-L6YeCmmdQotAMgEncz7ikx8F2dE=
+  dependencies:
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 proxy-addr@~2.0.4:
   version "2.0.4"
   resolved "http://registry.npm.alibaba-inc.com/proxy-addr/download/proxy-addr-2.0.4.tgz#ecfc733bf22ff8c6f407fa275327b9ab67e48b93"
@@ -3660,6 +3747,26 @@ rc@^1.2.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
+
+react-fast-compare@^2.0.0:
+  version "2.0.4"
+  resolved "http://registry.npm.alibaba-inc.com/react-fast-compare/download/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
+  integrity sha1-6EtNRVsP7BE+BALDKTUnFRlvgfk=
+
+react-is@^16.8.1:
+  version "16.8.1"
+  resolved "http://registry.npm.alibaba-inc.com/react-is/download/react-is-16.8.1.tgz#a80141e246eb894824fb4f2901c0c50ef31d4cdb"
+  integrity sha1-qAFB4kbriUgk+08pAcDFDvMdTNs=
+
+react@^16.8.1:
+  version "16.8.1"
+  resolved "http://registry.npm.alibaba-inc.com/react/download/react-16.8.1.tgz#ae11831f6cb2a05d58603a976afc8a558e852c4a"
+  integrity sha1-rhGDH2yyoF1YYDqXavyKVY6FLEo=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.1"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
   version "2.3.6"
@@ -3833,6 +3940,14 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "http://registry.npm.alibaba-inc.com/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
+
+scheduler@^0.13.1:
+  version "0.13.1"
+  resolved "http://registry.npm.alibaba-inc.com/scheduler/download/scheduler-0.13.1.tgz#1a217df1bfaabaf4f1b92a9127d5d732d85a9591"
+  integrity sha1-GiF98b+quvTxuSqRJ9XXMthalZE=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 schema-utils@^0.4.4:
   version "0.4.7"
@@ -4465,15 +4580,290 @@ v8-compile-cache@^2.0.2:
   resolved "http://registry.npm.alibaba-inc.com/v8-compile-cache/download/v8-compile-cache-2.0.2.tgz#a428b28bb26790734c4fc8bc9fa106fccebf6a6c"
   integrity sha1-pCiyi7JnkHNMT8i8n6EG/M6/amw=
 
-vanilla-tilt@^1.6.1:
-  version "1.6.1"
-  resolved "http://registry.npm.alibaba-inc.com/vanilla-tilt/download/vanilla-tilt-1.6.1.tgz#7472eda102f565c077b76e6240f36941436f2e24"
-  integrity sha1-dHLtoQL1ZcB3t25iQPNpQUNvLiQ=
-
 vary@~1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.alibaba-inc.com/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+victory-area@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-area/download/victory-area-31.2.0.tgz#5dc082dbbbdbf2718a952e9d47f8eb0d82d38987"
+  integrity sha1-XcCC27vb8nGKlS6dR/jrDYLTiYc=
+  dependencies:
+    d3-shape "^1.2.0"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-axis@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-axis/download/victory-axis-31.2.0.tgz#281f8c55a88949ca18d8039d2dbecef68982b6e4"
+  integrity sha1-KB+MVaiJScoY2AOdLb7O9omCtuQ=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-bar@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-bar/download/victory-bar-31.2.0.tgz#f395944cfd4db468de31fee77642069842626262"
+  integrity sha1-85WUTP1NtGjeMf7ndkIGmEJiYmI=
+  dependencies:
+    d3-shape "^1.2.0"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-box-plot@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-box-plot/download/victory-box-plot-31.2.0.tgz#aa4e8cdf7747645df7a29d988c654c0855e281eb"
+  integrity sha1-qk6M33dHZF33op2YjGVMCFXiges=
+  dependencies:
+    d3-array "^1.2.0"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-brush-container@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-brush-container/download/victory-brush-container-31.2.0.tgz#3aa8d6421a9eddd4821bed5a6b16c21db8bb15a4"
+  integrity sha1-OqjWQhqe3dSCG+1aaxbCHbi7FaQ=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-brush-line@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-brush-line/download/victory-brush-line-31.2.0.tgz#0c139881111b0860e41e07696cebd33f7342776a"
+  integrity sha1-DBOYgREbCGDkHgdpbOvTP3NCd2o=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-candlestick@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-candlestick/download/victory-candlestick-31.2.0.tgz#c387c299af446e4a7b8d83d458a3993b4c05f898"
+  integrity sha1-w4fCma9Ebkp7jYPUWKOZO0wF+Jg=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-chart@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-chart/download/victory-chart-31.2.0.tgz#a5c5220aea568dc5d346c82e4395f15e3ee7268f"
+  integrity sha1-pcUiCupWjcXTRsguQ5XxXj7nJo8=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    react-fast-compare "^2.0.0"
+    victory-axis "^31.2.0"
+    victory-core "^31.2.0"
+    victory-polar-axis "^31.2.0"
+    victory-shared-events "^31.2.0"
+
+victory-core@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-core/download/victory-core-31.2.0.tgz#c526abbeb8003460ac157419c13f9c1935a980f1"
+  integrity sha1-xSarvrgANGCsFXQZwT+cGTWpgPE=
+  dependencies:
+    d3-ease "^1.0.0"
+    d3-interpolate "^1.1.1"
+    d3-scale "^1.0.0"
+    d3-shape "^1.2.0"
+    d3-timer "^1.0.0"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    react-fast-compare "^2.0.0"
+
+victory-create-container@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-create-container/download/victory-create-container-31.2.0.tgz#cd66006732ba9bc8fbd4782d9c6dddc88f0bde04"
+  integrity sha1-zWYAZzK6m8j71HgtnG3dyI8L3gQ=
+  dependencies:
+    lodash "^4.17.5"
+    victory-brush-container "^31.2.0"
+    victory-core "^31.2.0"
+    victory-cursor-container "^31.2.0"
+    victory-selection-container "^31.2.0"
+    victory-voronoi-container "^31.2.0"
+    victory-zoom-container "^31.2.0"
+
+victory-cursor-container@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-cursor-container/download/victory-cursor-container-31.2.0.tgz#efdbe3fa333e8010e1968b9fbceb89d9ba30e4a6"
+  integrity sha1-79vj+jM+gBDhloufvOuJ2bow5KY=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-errorbar@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-errorbar/download/victory-errorbar-31.2.0.tgz#679b06700b8003eb6c2543ad6eca9d6d64d3b5f8"
+  integrity sha1-Z5sGcAuAA+tsJUOtbsqdbWTTtfg=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-group@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-group/download/victory-group-31.2.0.tgz#253c37e7e3a51dfda400e7c8b9a49fccf9295b77"
+  integrity sha1-JTw35+OlHf2kAOfIuaSfzPkpW3c=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    react-fast-compare "^2.0.0"
+    victory-core "^31.2.0"
+
+victory-legend@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-legend/download/victory-legend-31.2.0.tgz#d787232c49245fa23ab9d26237d868cde2d5d5b7"
+  integrity sha1-14cjLEkkX6I6udJiN9hozeLV1bc=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-line@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-line/download/victory-line-31.2.0.tgz#423872e701388fabc6dc2979bb6533917d91704e"
+  integrity sha1-Qjhy5wE4j6vG3Cl5u2UzkX2RcE4=
+  dependencies:
+    d3-shape "^1.2.0"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-pie@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-pie/download/victory-pie-31.2.0.tgz#f6f78b5d37015b3609ddc8f8b3f6b729684de0a9"
+  integrity sha1-9veLXTcBWzYJ3cj4s/a3KWhN4Kk=
+  dependencies:
+    d3-shape "^1.0.0"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-polar-axis@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-polar-axis/download/victory-polar-axis-31.2.0.tgz#641efbcb148b0e2aae08b40b42f6baf1dc480a88"
+  integrity sha1-ZB77yxSLDiquCLQLQva68dxICog=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-scatter@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-scatter/download/victory-scatter-31.2.0.tgz#9b2f7e77b6b086e7dc5d170d0d3e5012ebb7e489"
+  integrity sha1-my9+d7awhufcXRcNDT5QEuu35Ik=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-selection-container@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-selection-container/download/victory-selection-container-31.2.0.tgz#be9eecde825eadd151f02a8dedf97fe3ab345cac"
+  integrity sha1-vp7s3oJerdFR8CqN7fl/46s0XKw=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-shared-events@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-shared-events/download/victory-shared-events-31.2.0.tgz#b55290819b5785934a8b98c1262d13c240b6185f"
+  integrity sha1-tVKQgZtXhZNKi5jBJi0TwkC2GF8=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    react-fast-compare "^2.0.0"
+    victory-core "^31.2.0"
+
+victory-stack@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-stack/download/victory-stack-31.2.0.tgz#d3a46ac39060c2b2086dd33b164d187090a025b3"
+  integrity sha1-06Rqw5BgwrIIbdM7Fk0YcJCgJbM=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    react-fast-compare "^2.0.0"
+    victory-core "^31.2.0"
+
+victory-tooltip@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-tooltip/download/victory-tooltip-31.2.0.tgz#851e84ebb77eaca9579fc2a3f1cf0c635a89d3ef"
+  integrity sha1-hR6E67d+rKlXn8Kj8c8MY1qJ0+8=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-voronoi-container@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-voronoi-container/download/victory-voronoi-container-31.2.0.tgz#06452747a75760f2a153cb66baae63a18cdc931f"
+  integrity sha1-BkUnR6dXYPKhU8tmuq5joYzckx8=
+  dependencies:
+    d3-voronoi "^1.1.2"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+    victory-tooltip "^31.2.0"
+
+victory-voronoi@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-voronoi/download/victory-voronoi-31.2.0.tgz#9b3bd7e78efdc1dde483763bc5fdfe7132e46316"
+  integrity sha1-mzvX5479wd3kg3Y7xf3+cTLkYxY=
+  dependencies:
+    d3-voronoi "^1.1.2"
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory-zoom-container@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory-zoom-container/download/victory-zoom-container-31.2.0.tgz#49412ee737a46fb43a845f2c4fb2f8097ec426b4"
+  integrity sha1-SUEu5zekb7Q6hF8sT7L4CX7EJrQ=
+  dependencies:
+    lodash "^4.17.5"
+    prop-types "^15.5.8"
+    victory-core "^31.2.0"
+
+victory@^31.2.0:
+  version "31.2.0"
+  resolved "http://registry.npm.alibaba-inc.com/victory/download/victory-31.2.0.tgz#98a0e71abdf05173bc5c552fd80dda18e01e6059"
+  integrity sha1-mKDnGr3wUXO8XFUv2A3aGOAeYFk=
+  dependencies:
+    victory-area "^31.2.0"
+    victory-axis "^31.2.0"
+    victory-bar "^31.2.0"
+    victory-box-plot "^31.2.0"
+    victory-brush-container "^31.2.0"
+    victory-brush-line "^31.2.0"
+    victory-candlestick "^31.2.0"
+    victory-chart "^31.2.0"
+    victory-core "^31.2.0"
+    victory-create-container "^31.2.0"
+    victory-cursor-container "^31.2.0"
+    victory-errorbar "^31.2.0"
+    victory-group "^31.2.0"
+    victory-legend "^31.2.0"
+    victory-line "^31.2.0"
+    victory-pie "^31.2.0"
+    victory-polar-axis "^31.2.0"
+    victory-scatter "^31.2.0"
+    victory-selection-container "^31.2.0"
+    victory-shared-events "^31.2.0"
+    victory-stack "^31.2.0"
+    victory-tooltip "^31.2.0"
+    victory-voronoi "^31.2.0"
+    victory-voronoi-container "^31.2.0"
+    victory-zoom-container "^31.2.0"
 
 vm-browserify@0.0.4:
   version "0.0.4"

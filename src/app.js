@@ -7,6 +7,7 @@ const {
   Suspense,
   PureComponent,
 } = React;
+
 const {
   unstable_scheduleCallback: scheduleCallback,
 } = Scheduler;
